@@ -207,7 +207,7 @@ async def play(c: Client, m: Message):
                 )
     if replied:
         if replied.audio or replied.voice:
-            suhu = await replied.reply("📥 **sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜ ᴍᴏɪ ʟᴜʙ ❣️ ᴡᴀɪᴛ...**")
+            suhu = await replied.reply("📥 **ʜᴇʜ ʜᴇʜ ʜᴇʜ ʜᴇʜ ʟᴇᴛ's ᴅᴏ ᴛʜɪs! ꜰᴜʟʟ ᴘᴏᴡᴇʀ!👺 ᴡᴀɪᴛ...**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -258,8 +258,8 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url="https://t.me/Miku_Support"),
-                            InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Miku_updates")
+                            InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url="https://t.me/doflamingosupport"),
+                            InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url="https://t.me/mingo_logs")
                         ],
                         [
                             InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
@@ -304,7 +304,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜ ᴍᴏɪ ʟᴜʙ ❣️ ᴡᴀɪᴛ...**\n\n**ᴛɪᴛʟᴇ**: {title[:22]}\n\n100% ████████████100%\n\n**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ**: 00:00 Seconds\n\n**ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴀᴜᴅɪᴏ[ғғᴍᴘᴇɢ ᴘʀᴏᴄᴇss]**"
+                            ʜᴇʜ ʜᴇʜ ʜᴇʜ ʜᴇʜ ʟᴇᴛ's ᴅᴏ ᴛʜɪs 👺 ᴡᴀɪᴛ...**\n\n**ᴛɪᴛʟᴇ**: {title[:22]}\n\n100% ████████████100%\n\n**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ**: 00:00 Seconds\n\n**ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴀᴜᴅɪᴏ[ғғᴍᴘᴇɢ ᴘʀᴏᴄᴇss]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
