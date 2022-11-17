@@ -2,8 +2,8 @@ from MIKU.main import bot
 from pyrogram import filters
 
 
-OWNER = [5001899507]
-sudos = [5001899507]
+OWNER = [2120721732]
+sudos = [2120721732]
 
 @bot.on_message(filters.command("info"))
 def info(_, message):
