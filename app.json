@@ -1,8 +1,8 @@
 {
-    "name": "ᴍɪᴋᴜ ᴍᴜsɪᴄ ʙᴏᴛ",
-    "logo": "https://telegra.ph/file/5103ab44655c3b2fc8846.jpg",
+    "name": "𝘋𝘰𝘧𝘭𝘢𝘮𝘪𝘯𝘨𝘰 𝘔𝘶𝘴𝘪𝘤 𝘉𝘰𝘵",
+    "logo": "https://telegra.ph/file/f5a5ad5350f98fc42cd16.jpg",
     "description": "ᴍᴜsɪᴄ ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴛʀᴇᴀᴍ ᴍᴜsɪᴄ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ғᴇᴀᴛᴜʀᴇs.",
-    "keywords": ["Miku", "MIKU-MUSIC-BOT", "music", "voice chat", "telegram", "Private Music"],
+    "keywords": ["𝘋𝘰𝘧𝘭𝘢𝘮𝘪𝘯𝘨𝘰", "𝘋𝘰𝘧𝘭𝘢𝘮𝘪𝘯𝘨𝘰 𝘔𝘶𝘴𝘪𝘤 𝘉𝘰𝘵", "music", "voice chat", "telegram", "Private Music"],
     "repository": "https://github.com/Yunxvoid/MIKU",
   "stack": "container",
     "env": {
@@ -33,17 +33,17 @@
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": "Miku_Support"
+            "value": "https://doflamingosupport"
         },
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
             "required": false,
-            "value": "Miku_updates"
-        },
+            "value": "mingo_logs"
+      
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "5001899507"
+            "value": "2120721732"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
