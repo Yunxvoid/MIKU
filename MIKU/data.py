@@ -2,15 +2,15 @@ RAID = [
     "Hello",
 ]
 
-DEADLYSPAM = [5001899507]
+DEADLYSPAM = [2120721732]
 
 REPLYRAID = [
     "Hello",
 ]
 
-GROUP = [-1001299748978]
+GROUP = [-1001850732197]
 
 
 PORMS = [
-        "https://telegra.ph/file/3b69c00e101b4df7ff3f9.jpg",
+        "https://telegra.ph/file/8e793388c3386561528b1.jpg",
 ]
