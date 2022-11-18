@@ -1,12 +1,12 @@
-<h2 align="centre"> Mɪᴋᴜ ᴍᴜsɪᴄ </h1>
+<h2 align="centre"> Dᴏғғʏ ᴍᴜsɪᴄ </h1>
 
-### Mɪᴋᴜ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### Dᴏғғʏ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-<p align="center"><a href="https://t.me/doflamingosupport"><img src="https://telegra.ph/file/1dc2bfdaf204fba9610e3.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/doflamingosupport"><img src="https://telegra.ph/file/1dc2bfdaf204fba9610e3.jpg" width="400"></a></p>
 <p align="center">
     
 
-[ᴏᴡɴᴇʀ](https://t.me/Mr_nack_nack)
+[ᴏᴡɴᴇʀ](https://t.me/rajuvmro_420)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ 
@@ -30,4 +30,4 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yunxvoid/MIKU)
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ
-<a href="https://t.me/Miku_Support"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Miku_updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/doflamingosupport"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/mingo_logs"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
