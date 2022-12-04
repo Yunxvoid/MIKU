@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "AQDsKNcAc5YXFsPMjwWUO_qdK9H_HQ2mY0kNY24cwEup9Wo2QNf7yqGudnR4GUqSsUWc_fceot8_lNupXptQ2VVnwrRTsBl5AWmJpZxyUg7D1D8R78V2BXPImakHfrNgVEKwUMzQUlcoa6dpK614SgAtb5M76zlqYRxxcwQBR59hkjCtEqWrWon7lbe1Ox7LUtXbavQH5h3m332UZ_tlq4dmAH5tOChSEhlv7KC4tEj-G3jzEQfCmOm5YRnaawFeBpYfpIWIYRALcjAebAd3M_zPzlvyDkCfdeunBAswjohZi7FjA63uWPz8UK0zt9zdd5SCMnxg_HRJLiZwRKZ_Vb7rJKmR0wAAAABxy5hdAA")
+SESSION_NAME = getenv("SESSION_NAME", "AQCMa27xuein1wnyz4KIUQ-jCBlBD11elV8tdl0GMiyuWLG0EB20nildU_R5iM3N4jd-39anM642vl9aRWl0sMWFVxxRqLFLlSJsQG-qftyMiU33vYmWbiNLmRqvZBwO-oCcOBp8rkbL163D6wQF31ojHIhnxdJlOaLF6pes_kVaN2oZHSFgW3lqIQMEuwvJdhcmiOAyTjS4oEXqRqtIqeksZtQf6YquBKFKzejbsxp0adO75PB9K-2TYJ8rpPh1MsGWAbish55irsFnVixkspoAQn5cg1rqT-aFusZsUTAZrwMcfiD1_6drWZ6c-hHKfCIvjzYe53eVbYXEuSSCto4PccuYXQA")
 BOT_TOKEN = getenv("BOT_TOKEN", "5739451487:AAFXSRG3hjPmzJoOZlPV6Wfs5IKXp6UJk5g")
 BOT_NAME = getenv("BOT_NAME", "Miku Music")
 API_ID = int(getenv("API_ID", "9747885"))
