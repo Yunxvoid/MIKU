@@ -7,11 +7,11 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "AQDGTRlEi126Oi5APoKSRawxMEy1BNo4t5cy7aY7Db8z-EyewXyxrD3qOhvhxl9vuyY_NBCcNkwAb_7y2ECidCpLPSZHA4Vx8vaMrNmcALdz_QaL-SxDBuTlnMmfgk887B0e6icMsKMdD1-ZHSs7nIlNAK3VOoFJ260QYRACqRqtDh8oq9BpmebAFJ9jFIgNhJWHKCj4ztrrEZEJQJdpyXjgBhXBBaGCIAHhD7EGrq9w_CB6KhB5aDz0lSEgld4PX64zCutuQ3CT-HUjxprMgEi9ayiwMS8l53pCeJZRyeJrc4vFw_FnM815YPRYjHZ3NdMUuX_IRoBNPMNuCea79YHQccuYXQA")
+SESSION_NAME = getenv("SESSION_NAME", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "5739451487:AAFXSRG3hjPmzJoOZlPV6Wfs5IKXp6UJk5g")
 BOT_NAME = getenv("BOT_NAME", "Miku Music")
-API_ID = int(getenv("API_ID", "15476951"))
-API_HASH = getenv("API_HASH", "63d22e688f5c04e472325f03ae4b2fda")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 OWNER_NAME = getenv("OWNER_NAME", "Yun")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_nack_nack")
 ALIVE_NAME = getenv("ALIVE_NAME", "Miku Music")
