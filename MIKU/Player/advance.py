@@ -28,7 +28,7 @@ DEADLY += f"━━━━━━━━━━━━━━━━━━━\n\n"
 @BOT.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event):
      await BOT.send_file(event.chat_id,
-                                  NIXA_PIC,
+                                  MIKU_PIC,
                                   caption=DEADLY,
                                   buttons=[
         [
