@@ -91,7 +91,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ethrobot_support"),
             ],
             [
                 InlineKeyboardButton(" 【V๏ɪ፝֟𝔡】◈Network◈", url="https://t.me/VoidxNetwork"),
@@ -193,10 +193,10 @@ Welcome to [【V๏ɪ፝֟𝔡】Network](https://t.me/voidxnetwork)
 
                 reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/VoidXNetwork")],
+                    [InlineKeyboardButton(text="【Nati】Network", url="https://t.me/nati_premium")],
                     [
-                    InlineKeyboardButton(text="【ᴜꜱᴇʀᴛᴀɢ】", url="https://t.me/VoidxNetwork/136"),
-                    InlineKeyboardButton(text="【ɪɴᴅᴇx】", url="https://t.me/VoidxNetwork/15")
+                    InlineKeyboardButton(text="【ᴜꜱᴇʀᴛᴀɢ】", url="https://t.me/nati_premium"),
+                    InlineKeyboardButton(text="【ɪɴᴅᴇx】", url="https://t.me/nati_premium")
                     ],
                 ]
             ),
