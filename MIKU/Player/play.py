@@ -103,6 +103,7 @@ async def generate_cover(thumbnail, title, userid, ctitle):
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
     image6 = image4.convert("RGBA")
+    image6.save(f"temp{userid}.png")
 
     #drawing font on the bot pic thumb
     img = Image.open(f"temp{userid}.png")
