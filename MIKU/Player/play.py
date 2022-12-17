@@ -27,9 +27,7 @@ from youtubesearchpython import VideosSearch
 import yt_dlp
 import yt_dlp
 
-MIKU_IMGS = [
-    "Process/ImageFont/vxn.png"
-]
+MIKU_IMGS = "Process/ImageFont/vxn.png"
 
 Client=MIKU
 
@@ -102,7 +100,7 @@ async def generate_cover(thumbnail, title, userid, ctitle):
                 await f.close()
     image1 = Image.open(f"thumb{userid}.png")
     images = MIKU_IMGS
-    image2 = Image.open(images)
+    image2 = Image.open(f"vxn.png")
     image3 = changeImageSize(480, 480, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
