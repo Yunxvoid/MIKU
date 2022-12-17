@@ -112,7 +112,7 @@ async def generate_cover(thumbnail, title, userid, ctitle):
     font2 = ImageFont.truetype("Process/ImageFont/finalfont.ttf", 40)     
     draw.text((480, 180), f"Playing : {title[:30]}", fill= "white", stroke_width = 1, stroke_fill="white", font=font2)
     draw.text((480, 200), f"Playing in: {ctitle[:20]}", fill="white", stroke_width = 1, stroke_fill="white" ,font=font)
-    Image.save(f"temp{userid}.png")
+
     # pasting yt thumb in bot pic thumb
     miku = img.paste(image5,(120,470))
     miku.save(f"final{userid}.png")
