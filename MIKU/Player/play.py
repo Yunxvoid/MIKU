@@ -115,8 +115,10 @@ async def generate_cover(thumbnail, title, userid, ctitle):
 
     # pasting yt thumb in bot pic thumb
     miku = img.paste(image5,(120,470))
-    kuro = Image.open(miku)
+    farhana = miku.save("haha.png")
+    kuro = Image.open("haha.png")
     kuro.save(f"final{userid}.png")
+    os.remove("haha.png")
     os.remove(f"temp{userid}.png")
     os.remove(f"thumb{userid}.png") 
     final = f"final{userid}.png"
