@@ -27,6 +27,17 @@ from youtubesearchpython import VideosSearch
 import yt_dlp
 import yt_dlp
 
+NIXA_IMGS = [
+    "Process/ImageFont/Red.png",
+    "Process/ImageFont/Black.png",
+    "Process/ImageFont/Blue.png",
+    "Process/ImageFont/Grey.png",
+    "Process/ImageFont/Green.png",
+    "Process/ImageFont/Lightblue.png",
+    "Process/ImageFont/Lightred.png",
+    "Process/ImageFont/Purple.png",
+    "Process/ImageFont/Nixa.png",
+]
 
 Client = MIKU
 
@@ -98,32 +109,24 @@ async def generate_cover(thumbnail, title, userid, ctitle):
                 await f.write(await resp.read())
                 await f.close()
     image1 = Image.open(f"thumb{userid}.png")
-    image2 = Image.open("Process/ImageFont/vxn.png")
-    image3 = changeImageSize(480, 480, image1)
+    images = choice(NIXA_IMGS)
+    image2 = Image.open(images)
+    image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
     image6 = image4.convert("RGBA")
-    image6.save(f"temp{userid}.png")
-
-    #drawing font on the bot pic thumb
+    Image.alpha_composite(image5, image6).save(f"temp{userid}.png")
     img = Image.open(f"temp{userid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("Process/ImageFont/finalfont.ttf", 40)
-    font2 = ImageFont.truetype("Process/ImageFont/finalfont.ttf", 40)     
-    draw.text((480, 180), f"Playing : {title[:30]}", fill= "white", stroke_width = 1, stroke_fill="white", font=font2)
-    draw.text((480, 200), f"Playing in: {ctitle[:20]}", fill="white", stroke_width = 1, stroke_fill="white" ,font=font)
-
-    # pasting yt thumb in bot pic thumb
-    miku = img.paste(image5,(120,470))
-    miku.save("ehe.png")
-    kuro = Image.open("ehe.png")
-    kuro.save(f"final{userid}.png")
-    os.remove("ehe.png")
+    font = ImageFont.truetype("Process/ImageFont/finalfont.ttf", 60)
+    font2 = ImageFont.truetype("Process/ImageFont/finalfont.ttf", 70)     
+    draw.text((20, 45), f"{title[:30]}...", fill= "white", stroke_width = 1, stroke_fill="white", font=font2)
+    draw.text((120, 595), f"Playing on: {ctitle[:20]}...", fill="white", stroke_width = 1, stroke_fill="white" ,font=font)
+    img.save(f"final{userid}.png")
     os.remove(f"temp{userid}.png")
     os.remove(f"thumb{userid}.png") 
     final = f"final{userid}.png"
     return final
-
 
 
     
